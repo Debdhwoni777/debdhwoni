@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { Hero } from "./sections/Hero.jsx";
 import { Navbar } from "./layout/Navbar.jsx";
 import { About } from "./sections/About.jsx";
