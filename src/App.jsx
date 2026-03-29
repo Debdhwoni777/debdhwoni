@@ -1,0 +1,27 @@
+import { Hero } from "./sections/Hero.jsx";
+import { Navbar } from "./layout/Navbar.jsx";
+import { About } from "./sections/About.jsx";
+import { Projects } from "./sections/Projects.jsx";
+import { Experience } from "./sections/Experience.jsx";
+import { Testimonials } from "./sections/Testimonials.jsx";
+import { Contact } from "./sections/Contact.jsx"; 
+import { Footer } from "./layout/Footer.jsx";
+
+
+function App() {
+  return <div className="min-h-screen overflow-x-hidden ">
+    <Navbar/>
+    <main>
+      <Hero/>
+      <About/>
+      <Projects/>
+      <Experience/>
+      <Testimonials/>
+      <Contact/>
+      <Footer/>
+    </main>
+  </div>
+}
+
+
+export default App
